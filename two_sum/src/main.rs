@@ -16,7 +16,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 }
 
 fn main() {
-    let input = vec![2,7,11,15];
+    let input = vec![2, 7, 11, 15, 2];
     let target = 9;
     println!("{:?}", two_sum(input, target));
 }
